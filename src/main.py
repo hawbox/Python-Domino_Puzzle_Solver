@@ -16,7 +16,7 @@ def print_board(b,dm=None):
 		s=s[:len(s)-1]+"|\n|"+"  "*w
 		s=s[:len(s)-1]+"|\n"
 	s=s[:len(s)-w*2-2]+"+"+"-"*(2*w-1)+"+"
-	if (dm==None):
+	if (dm is None):
 		print(s+"\n")
 	else:
 		s=s.split("\n")
